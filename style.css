@@ -1,0 +1,114 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main > .box {
+    width: 90%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.box > .nav {
+    width: 90%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav > .navl{
+    width: 45%;
+    height: 100%;
+    /* background-color:brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navl > p {
+    font-size: 12px;
+}
+
+.navl > .n{
+    width: 10%;
+    height: 50%;
+    /* background-color: blanchedalmond;   */
+}
+
+.n > button {
+    padding: 3px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: none;
+}
+
+.nav > .navr {
+    width: 22%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navr > p{
+    font-size: 13px;
+}
+
+.navr > button {
+    font-size: 12px;
+    padding: 2px 8px;
+    border: none;
+}
+
+.box > .center {
+    width: 100%;
+    height: 90%;
+}
+
+.center > .a{
+    width: 50%;
+    height: 100%;
+    background-color: palegreen
+}
+
+.a > h1 {
+    padding-top: 25%;
+    font-size: 55px;
+    line-height: 50px;
+}
+
+.a > p {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.a > button {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+    background-color:aquamarine;
+    color: white;
+}
+
+
+
